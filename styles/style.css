@@ -219,7 +219,6 @@ input:focus {
 }
 
 .content__details {
-  min-height: 534px;
   min-width: 399px;
 }
 
@@ -304,8 +303,8 @@ input:focus {
   line-height: 100%;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+  padding-left: 2px;
   white-space: nowrap;
   overflow: hidden;
   max-width: 192px;
@@ -315,7 +314,10 @@ input:focus {
   font-weight: 400;
   line-height: 16.2px;
   line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
   overflow: hidden;
+  padding-left: 2px;
 }
 
 
