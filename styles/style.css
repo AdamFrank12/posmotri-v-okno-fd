@@ -313,7 +313,7 @@ input:focus {
 .content__video-card-description {
   font-weight: 400;
   line-height: 16.2px;
-  line-clamp: 1;
+  -webkit-line-clamp: 4;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
